@@ -1,0 +1,18 @@
+header {
+  background-color: $bg-dark-top;
+  width:100%;
+  color: $dark;
+  height: $heigthHeader;
+
+  .menu-dx {
+    @include small-menu;
+
+    .menu-dx {
+      @include listInline;
+
+      li {
+        
+      }
+    }
+  }
+}
