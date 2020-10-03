@@ -1,24 +1,8 @@
-@mixin row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-};
-
-@mixin column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-};
 
 /*mixin nav bar*/
-@mixin small-menu {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
+
 
 @mixin listInline {
+  display: flex;
   list-style: none;
-}
+};

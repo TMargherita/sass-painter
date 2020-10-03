@@ -1,18 +1,41 @@
 header {
   background-color: $bg-dark-top;
-  width:100%;
-  color: $dark;
   height: $heigthHeader;
+  padding: 10px 0;
+  /*menu dx*/
+  &-top-bar{
+    display: flex;
+    justify-content: flex-end;
 
-  .menu-dx {
-    @include small-menu;
+    .menu-dx{
 
-    .menu-dx {
-      @include listInline;
+      &-list{
+        @include listInline;
 
-      li {
-        
+        li {
+          padding: 0 15px;
+
+          span {
+            color: $color-action;
+            padding: 0 5px;
+          }
+
+          a {
+            color: $color-top-menu;
+            text-decoation: none;
+          }
+
+          &:hover {
+            text-decoration: underline;
+            color: #fff;
+          }
+        }
       }
     }
   }
+
+  &-bottom-bar{
+
+  }
+
 }

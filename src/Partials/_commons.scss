@@ -3,8 +3,33 @@
   margin: 0;
   padding: 0;
 }
-//wrapper nav menu top
-.wrapper-top {
+
+//wrapper nav menu tops
+.container {
   max-width: 1200px;
-  max-width: 100%;
+  width: 100%
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+//typo
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+
+h5 {
+  font-size: 20px;
+}
+
+h6, p {
+  font-size: 18px;
 }

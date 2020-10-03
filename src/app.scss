@@ -1,6 +1,12 @@
-@import "Partials/_variabiles.scss";
-@import "Partials/_mixins.scss";
-@import "Partials/_commons.scss";
-@import "Partials/_header.scss";
-@import "Partials/_main.scss";
-@import "Partials/_footer.scss";
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+
+//Setup
+@import "Partials/_variables";
+@import "Partials/_mixins";
+@import "Partials/_commons";
+//Partials
+@import "Partials/_header";
+@import "Partials/_main";
+@import "Partials/_footer";

@@ -1,0 +1,50 @@
+/*mixin nav bar*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6,
+p {
+  font-size: 18px;
+}
+
+header {
+  background-color: #101010;
+  width: 100%;
+  color: #333333;
+  height: 95px;
+}
+
+header .menu-dx {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header .menu-dx .menu-dx .contact {
+  list-style: none;
+}
